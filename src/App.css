@@ -2,37 +2,54 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding:0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+  background-image: url('https://wallpapercave.com/wp/wp4959196.jpg');
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.image{
+  margin: 30px;
+  width: 300px;
+	height: 300px;
 }
 
-.App-link {
-  color: #61dafb;
+
+div img {
+  width: 200px; 
+  height: auto; 
+  transition: .6s ease-in-out !important; 
+}
+div img:hover {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heading{
+  margin-top: 30px;
+  font-size: 70px;
+  font-weight: 600;
+  background-image:linear-gradient(to right, #553c9a 45%, #ee4b2b);
+  color: transparent;
+  background-clip: text;
+
+}
+
+.add{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRevwamzD_wKU2jmzRRQNoX_bHkYfdVHMr05F4JUwPOjZmPchsdZpIkrWitIE1TBo01ZrA&usqp=CAU")
+
+}
+.discription{
+  margin-top: 30px;
+  padding-top: 20px;
+  background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb);
+  font-size: 50px;
+  font-weight: 600;
+  color: transparent;
+  background-clip: text;
 }
